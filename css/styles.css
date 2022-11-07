@@ -505,6 +505,10 @@
             font-weight: bold;
         }
 
+        .vision-font {
+            color: #972724 !important;
+        }
+
         .card-text,
         .card-mission {
             text-align: center !important;
@@ -532,7 +536,7 @@
         }
 
         .equiry_label.contact  {
-            margin-top: 150px;
+            /* margin-top: 150px; */
             font-size: 50px !important;
             
         }
@@ -666,12 +670,15 @@
         .quick_label {
             color: #707070 !important;
             font-size: 18px !important;
+            font-size: 18px !important;
+            font-weight: 600 !important;
         }
 
         .quick_label_touch {
-            color: #707070 !important;
+            color: black !important;
             font-size: 18px !important;
             display: flex;
+           
         }
 
         .above-footer-image img {
@@ -1327,4 +1334,9 @@ body .container {
             margin: -13px !important;
             list-style: none;
             text-align: center;
+        }
+
+        .quick_label{
+            font-weight: 600;
+            color: black !important;
         }
